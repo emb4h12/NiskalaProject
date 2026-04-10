@@ -49,16 +49,21 @@ const mods = {
         desc: "Grafik standar Niskala untuk SA-MP PC. Memberikan kesan visual yang lebih hidup tanpa menguras FPS.",
         features: ["Color Correction", "SAMP Optimized", "Low-End PC Support", "Visual Vitality"],
         downloadUrl: ADS_CONFIG.mainLink,
-        fileUrl: "https://www.mediafire.com/file/o2z1tx501og4v1k/v1_Ivann.rar/file"
+        fileUrl: "https://www.mediafire.com/file/o2z1tx501og4v1k/v1_Ivann.rar/file",
+        category: "mods",
+        tag: "VERSI STABIL",
+        size: "small"
     },
-    // ... rest of mods ...
     v6: {
         title: "NISKALA GRAPHICS V6 💀",
         image: "images/v6.png",
         desc: "ULTRA REALISTIC GRAPHICS. Khusus PC Spek Tinggi. Menggunakan shader tercanggih untuk SA-MP.",
         features: ["Ray-Tracing Shaders", "Dynamic Reflections", "Advanced Physics", "High Spec PC Only"],
         downloadUrl: ADS_CONFIG.mainLink,
-        fileUrl: "https://www.mediafire.com/file/29oe7c1jfh4j70v/v6_Ivann_%28pc_kentang_jangan_coba%29.rar/file"
+        fileUrl: "https://www.mediafire.com/file/29oe7c1jfh4j70v/v6_Ivann_%28pc_kentang_jangan_coba%29.rar/file",
+        category: "modpack",
+        tag: "SPEK ULTRA",
+        size: "big"
     },
     v8: {
         title: "NISKALA NIGHT VISUALS V8 🏮",
@@ -66,7 +71,10 @@ const mods = {
         desc: "Modifikasi pencahayaan malam hari. Membuat suasana kota di SA-MP menjadi lebih sinematik.",
         features: ["Neon Glow FX", "Night Bloom", "Cinematic Atmosphere", "PC SA-MP Optimized"],
         downloadUrl: ADS_CONFIG.mainLink,
-        fileUrl: "https://www.mediafire.com/file/e0agek9pgvj4mjn/v8_Ivann.rar/file"
+        fileUrl: "https://www.mediafire.com/file/e0agek9pgvj4mjn/v8_Ivann.rar/file",
+        category: "mods",
+        tag: "OPERASI MALAM",
+        size: "small"
     },
     v13: {
         title: "NISKALA ULTIMATE V13 ✨",
@@ -74,7 +82,10 @@ const mods = {
         desc: "Edisi Ulang Tahun. Menggabungkan optimasi grafik terbaik dari seluruh seri Niskala untuk PC.",
         features: ["Master Graphics Pack", "Universal PC Compatibility", "Maximum Visuals", "SAMP Stable"],
         downloadUrl: ADS_CONFIG.mainLink,
-        fileUrl: "https://www.mediafire.com/file/qhbsspszjwxdzj9/v13_Ivann.rar/file"
+        fileUrl: "https://www.mediafire.com/file/qhbsspszjwxdzj9/v13_Ivann.rar/file",
+        category: "modpack",
+        tag: "ULANG TAHUN",
+        size: "big"
     },
     v2: {
         title: "NISKALA TEXTURES V2 ⚡",
@@ -82,7 +93,10 @@ const mods = {
         desc: "Remaster tekstur lingkungan dasar. Upgrade tekstur dinding dan bangunan menjadi lebih tajam.",
         features: ["HD Building Textures", "Environment Remaster", "No FPS Drop", "Sharper Visuals"],
         downloadUrl: ADS_CONFIG.mainLink,
-        fileUrl: "https://www.mediafire.com/file/p647c5z4c88fvsx/v2_Ivann.rar/file"
+        fileUrl: "https://www.mediafire.com/file/p647c5z4c88fvsx/v2_Ivann.rar/file",
+        category: "mods",
+        tag: "REALISTIS",
+        size: "small"
     },
     v4: {
         title: "NISKALA TEXTURES V4 🎨",
@@ -90,7 +104,10 @@ const mods = {
         desc: "Tekstur dengan gaya artistik unik. Mengubah seluruh dunia SA-MP menjadi lebih berwarna.",
         features: ["Artistic Textures", "Unique Color Palette", "High FPS Optimized", "Fun Visual Style"],
         downloadUrl: ADS_CONFIG.mainLink,
-        fileUrl: "https://www.mediafire.com/file/56b42ex67gqphfz/v4_Ivann%28cartoon_njir%29%282%29.rar/file"
+        fileUrl: "https://www.mediafire.com/file/56b42ex67gqphfz/v4_Ivann%28cartoon_njir%29%282%29.rar/file",
+        category: "mods",
+        tag: "ARTISTIK",
+        size: "small"
     },
     v10: {
         title: "NISKALA TEXTURES V10 🏢",
@@ -98,7 +115,10 @@ const mods = {
         desc: "Fokus pada tekstur gedung pemerintahan dan area publik agar lebih realistis untuk Roleplay.",
         features: ["Modern Office Textures", "Public Area HD", "Building Realism", "PC SAMP Only"],
         downloadUrl: ADS_CONFIG.mainLink,
-        fileUrl: "https://www.mediafire.com/file/v2tterxtqqwnmfg/v10_Ivann.rar/file"
+        fileUrl: "https://www.mediafire.com/file/v2tterxtqqwnmfg/v10_Ivann.rar/file",
+        category: "mods",
+        tag: "UI FAKSI",
+        size: "small"
     },
     v11: {
         title: "NISKALA TEXTURES V11 🏙️",
@@ -106,7 +126,10 @@ const mods = {
         desc: "Optimasi tekstur pusat kota (Downtown) untuk mengurangi lag sambil meningkatkan kualitas visual.",
         features: ["Downtown Remaster", "Optimized VRAM Usage", "High Detail Walls", "SAMP Stable"],
         downloadUrl: ADS_CONFIG.mainLink,
-        fileUrl: "https://www.mediafire.com/file/aj9kfim6mvfbhk3/v11_Ivann.rar/file"
+        fileUrl: "https://www.mediafire.com/file/aj9kfim6mvfbhk3/v11_Ivann.rar/file",
+        category: "mods",
+        tag: "PEMETAAN",
+        size: "small"
     },
     v3: {
         title: "NISKALA ROADS V3 🛣️",
@@ -114,7 +137,10 @@ const mods = {
         desc: "Peningkatan tekstur jalanan utama. Memberikan efek aspal yang lebih nyata dan detail.",
         features: ["Realistic Asphalt", "Road Detail V1", "Complex Pavement", "No Texture Glitch"],
         downloadUrl: ADS_CONFIG.mainLink,
-        fileUrl: "https://www.mediafire.com/file/4vle2shvgpgppmx/v3_Ivann.rar/file"
+        fileUrl: "https://www.mediafire.com/file/4vle2shvgpgppmx/v3_Ivann.rar/file",
+        category: "mods",
+        tag: "PETA JAKARTA",
+        size: "small"
     },
     v7: {
         title: "NISKALA ROADS V7 🏁",
@@ -122,7 +148,10 @@ const mods = {
         desc: "Tekstur jalanan balap dan trotoar. Detail markah jalan yang lebih jelas untuk navigasi.",
         features: ["Sidewalk HD", "Nav Lines Detail", "High Quality Pavement", "PC SA-MP Optimized"],
         downloadUrl: ADS_CONFIG.mainLink,
-        fileUrl: "https://www.mediafire.com/file/6ldpgyusmd96gf3/v7_Ivann.rar/file"
+        fileUrl: "https://www.mediafire.com/file/6ldpgyusmd96gf3/v7_Ivann.rar/file",
+        category: "mods",
+        tag: "MOBIL MEWAH",
+        size: "small"
     },
     v9: {
         title: "NISKALA ROADS V9 ✨",
@@ -130,7 +159,10 @@ const mods = {
         desc: "Pack jalanan dengan efek basah/refleksi. Sangat cocok dipadukan dengan mod grafik visual.",
         features: ["Wet Road FX", "Reflection Support", "Road HQ Textures", "Visual Synergy"],
         downloadUrl: ADS_CONFIG.mainLink,
-        fileUrl: "https://www.mediafire.com/file/zgi7h14y5p30but/v9_Ivann.rar/file"
+        fileUrl: "https://www.mediafire.com/file/zgi7h14y5p30but/v9_Ivann.rar/file",
+        category: "mods",
+        tag: "PACK MOTOR",
+        size: "small"
     },
     v12: {
         title: "NISKALA ROADS V12 🌉",
@@ -138,7 +170,10 @@ const mods = {
         desc: "Upgrade tekstur jembatan dan jalan layang. Memberikan tampilan infrastruktur yang lebih modern.",
         features: ["Bridge Textures HD", "Infras Remaster", "Modern Look", "PC SAMP PC Only"],
         downloadUrl: ADS_CONFIG.mainLink,
-        fileUrl: "https://www.mediafire.com/file/50k2zkobofe01yo/v12_Ivann.rar/file"
+        fileUrl: "https://www.mediafire.com/file/50k2zkobofe01yo/v12_Ivann.rar/file",
+        category: "mods",
+        tag: "MODERN HUD",
+        size: "small"
     },
     v5: {
         title: "NISKALA ROADS V5 🏆",
@@ -146,7 +181,10 @@ const mods = {
         desc: "Kompilasi tekstur jalanan terbaik Niskala. Tekstur aspal paling realistis yang pernah ada.",
         features: ["Expert Road Pack", "Ultra Realism Asphalt", "Comprehensive Detail", "Max Compatibility"],
         downloadUrl: "https://www.profitablecpmratenetwork.com/g5idm8qn?key=aafc3f9588fc543c62d75bf88ea3213c",
-        fileUrl: "https://www.mediafire.com/file/bkw41eu6kp3m13l/v5_Ivann.rar/file"
+        fileUrl: "https://www.mediafire.com/file/bkw41eu6kp3m13l/v5_Ivann.rar/file",
+        category: "modpack",
+        tag: "PAMUNGKAS",
+        size: "small"
     }
 };
 
@@ -159,7 +197,60 @@ window.navigate = (sectionId) => {
     const target = document.getElementById(sectionId);
     target.classList.add('active');
     window.scrollTo({ top: 0, behavior: 'smooth' });
+
+    if(sectionId === 'list-page') {
+        renderMods('all');
+    }
 };
+
+// Mod Rendering Logic with Categories
+window.renderMods = (filterCategory) => {
+    // Update active tab UI
+    document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
+    document.getElementById(`filter-${filterCategory}`).classList.add('active');
+
+    const grid = document.getElementById('mod-grid');
+    grid.innerHTML = ''; // Kosongkan grid
+
+    let delay = 0;
+    
+    Object.keys(mods).forEach((key) => {
+        const mod = mods[key];
+        
+        // Cek kategori
+        if(filterCategory === 'all' || mod.category === filterCategory) {
+            const card = document.createElement('div');
+            card.className = `mod-card card-${mod.size} animate-enter`;
+            card.style.animationDelay = `${delay}s`;
+            card.setAttribute('onclick', `openMod('${key}')`);
+            
+            card.innerHTML = `
+                <div class="mod-media"><img src="${mod.image}" alt="${mod.title}"></div>
+                <div class="card-overlay">
+                    <div class="card-tag">${mod.tag}</div>
+                    <h3>${mod.title.replace(/ .$/,"")}</h3> <!-- Hapus emoji terakhir di title card -->
+                </div>
+            `;
+            
+            grid.appendChild(card);
+            delay += 0.1; // Staggered animation
+        }
+    });
+};
+
+// Initialize mods and event listeners
+document.addEventListener('DOMContentLoaded', () => {
+    if(document.getElementById('list-page').classList.contains('active')) {
+        renderMods('all');
+    }
+    initMagneticButtons();
+    
+    // Explicitly bind the Explore Mod button just in case onclick fails
+    const exploreBtn = document.querySelector('.btn-glass');
+    if(exploreBtn) {
+        exploreBtn.addEventListener('click', () => navigate('list-page'));
+    }
+});
 
 // Open Mod Detail
 window.openMod = (modKey) => {
@@ -317,3 +408,9 @@ if (database) {
 }
 
 console.log('Mod Platform Initialized - Real-time Activity Active! 🔥');
+
+// --- PREMIUM MAGNETIC INTERACTION (Disabled) ---
+window.initMagneticButtons = () => {
+    // Buttons are now static as requested
+};
+
