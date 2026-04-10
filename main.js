@@ -50,7 +50,7 @@ const mods = {
         features: ["Color Correction", "SAMP Optimized", "Low-End PC Support", "Visual Vitality"],
         downloadUrl: ADS_CONFIG.mainLink,
         fileUrl: "https://www.mediafire.com/file/o2z1tx501og4v1k/v1_Ivann.rar/file",
-        category: "mods",
+        category: "modpack",
         tag: "VERSI STABIL",
         size: "small"
     },
@@ -94,7 +94,7 @@ const mods = {
         features: ["HD Building Textures", "Environment Remaster", "No FPS Drop", "Sharper Visuals"],
         downloadUrl: ADS_CONFIG.mainLink,
         fileUrl: "https://www.mediafire.com/file/p647c5z4c88fvsx/v2_Ivann.rar/file",
-        category: "mods",
+        category: "modpack",
         tag: "REALISTIS",
         size: "small"
     },
@@ -105,7 +105,7 @@ const mods = {
         features: ["Artistic Textures", "Unique Color Palette", "High FPS Optimized", "Fun Visual Style"],
         downloadUrl: ADS_CONFIG.mainLink,
         fileUrl: "https://www.mediafire.com/file/56b42ex67gqphfz/v4_Ivann%28cartoon_njir%29%282%29.rar/file",
-        category: "mods",
+        category: "modpack",
         tag: "ARTISTIK",
         size: "small"
     },
@@ -138,7 +138,7 @@ const mods = {
         features: ["Realistic Asphalt", "Road Detail V1", "Complex Pavement", "No Texture Glitch"],
         downloadUrl: ADS_CONFIG.mainLink,
         fileUrl: "https://www.mediafire.com/file/4vle2shvgpgppmx/v3_Ivann.rar/file",
-        category: "mods",
+        category: "modpack",
         tag: "PETA JAKARTA",
         size: "small"
     },
