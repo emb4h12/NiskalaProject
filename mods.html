@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMB4H COMMUNITY | Koleksi Mods Satuan</title>
+    <meta name="description" content="Jelajahi koleksi mods satuan terbaik dari Embah Project.">
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <script src="https://pl29108016.profitablecpmratenetwork.com/24/e3/00/24e300860b1609b67ce57a86150a0174.js"></script>
+</head>
+<body>
+    <!-- Background Animated Elements -->
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+    <canvas id="particles-canvas"></canvas>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar scrolled">
+        <div class="nav-container">
+            <a href="index.html" class="logo">EMB4H <span>COMMUNITY</span></a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="modpacks.html">Modpacks</a></li>
+                <li><a href="mods.html" style="color: var(--text-primary); border-bottom: 2px solid var(--accent-1);">Mods Satuan</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <a href="index.html" class="cta-btn small secondary">Kembali</a>
+        </div>
+    </nav>
+
+    <!-- Mods Section -->
+    <section class="modpacks section" style="padding-top: 150px; min-height: 80vh;">
+        <div class="container">
+            <div class="section-title reveal">
+                <h2>Katalog <span>Mods Satuan</span></h2>
+                <p>Temukan ratusan mod satuan pilihan seperti mobil, skin karakter, dan mod grafik spesifik untuk game Anda.</p>
+            </div>
+            
+            <div class="category-tabs reveal">
+                <button class="tab-btn active" data-filter="all">Semua</button>
+                <button class="tab-btn" data-filter="kendaraan">Mods Kendaraan</button>
+                <button class="tab-btn" data-filter="skin">Mods Skin</button>
+                <button class="tab-btn" data-filter="texture">Mods Texture</button>
+                <button class="tab-btn" data-filter="skin-weapon">Mods Skin Weapon</button>
+                <button class="tab-btn" data-filter="sound-kendaraan">Mods Sound Kendaraan</button>
+                <button class="tab-btn" data-filter="skybox">Mods Skybox</button>
+                <button class="tab-btn" data-filter="enb">Mods Enb</button>
+                <button class="tab-btn" data-filter="timecyc">Mods Timecyc</button>
+                <button class="tab-btn" data-filter="vegetation">Mods Vegetation</button>
+                <button class="tab-btn" data-filter="reshade-preset">Mods Reshade Preset</button>
+                <button class="tab-btn" data-filter="anim">Mods Anim</button>
+                <button class="tab-btn" data-filter="cleo">Script/Cleo</button>
+                <button class="tab-btn" data-filter="other">Other Mods</button>
+            </div>
+
+            <div class="modpacks-grid">
+                <!-- Slot untuk Mods baru dari Discord -->
+                <div id="extra-mods" style="display: contents;"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h2>EMB4H <span>COMMUNITY</span></h2>
+                    <p>Komunitas berbagi modpack hasil racikan original Team kami sendiri, serta merangkum berbagai mod pilihan terbaik yang telah disesuaikan khusus untuk memaksimalkan pengalaman bermain Anda.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="https://discord.gg/HzJEbZJ34N" target="_blank" class="discord-link">
+                        <svg width="20" height="20" viewBox="0 0 24 24">
+                            <path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515a.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0a12.64 12.64 0 0 0-.617-1.25a.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057a19.9 19.9 0 0 0 5.993 3.03a.078.078 0 0 0 .084-.028a14.09 14.09 0 0 0 1.226-1.994a.076.076 0 0 0-.041-.106a13.107 13.107 0 0 1-1.872-.892a.077.077 0 0 1-.008-.128a10.2 10.2 0 0 0 .372-.292a.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127a12.299 12.299 0 0 1-1.873.892a.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028a19.839 19.839 0 0 0 6.002-3.03a.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419c0-1.333.955-2.419 2.157-2.419c1.21 0 2.176 1.096 2.157 2.419c0 1.334-.956 2.419-2.157 2.419zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419c0-1.333.955-2.419 2.157-2.419c1.21 0 2.176 1.096 2.157 2.419c0 1.334-.946 2.419-2.157 2.419z"></path>
+                        </svg>
+                        OFFICIAL DISCORD EMB4H COMMUNITY
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 EMB4H COMMUNITY. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Review Floating Button & Modal -->
+    <button id="open-review-modal" class="review-btn-floating" title="Berikan Ulasan">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+    </button>
+
+    <div id="review-modal" class="modal">
+        <div class="modal-content glass-panel">
+            <span class="close-modal">&times;</span>
+            <div class="modal-header">
+                <h3>Berikan <span>Ulasan</span></h3>
+                <p>Bagikan pengalaman Anda menggunakan modpack EMB4H.</p>
+            </div>
+            <form id="review-form">
+                <div class="form-group">
+                    <input type="text" id="review-name" placeholder="Nama Anda" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="review-message" placeholder="Tulis ulasan Anda di sini..." required></textarea>
+                </div>
+                <button type="submit" id="submit-review-btn" class="cta-btn primary full-width">Kirim Ulasan</button>
+            </form>
+            <div id="modal-loader" class="modal-loader">
+                <div class="spinner"></div>
+                <p>Sedang mengirim ulasan...</p>
+            </div>
+            <div id="modal-success" class="modal-loader">
+                <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <p>Ulasan Terkirim!</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="review-toast" class="review-toast"></div>
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/9.22.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.1/firebase-database-compat.js"></script>
+    <div id="sys-notification" class="sys-notification"></div>
+    <script src="js/script.js"></script>
+</body>
+</html>
